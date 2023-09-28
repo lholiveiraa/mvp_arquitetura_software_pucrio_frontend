@@ -31,7 +31,7 @@ Para executar este projeto em sua máquina, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/seu-usuario/mvp_arquitetura_software_pucrio_frontend.git
-   ```bash
+   ```
 
 2. Navegue para o diretório do projeto:
 
