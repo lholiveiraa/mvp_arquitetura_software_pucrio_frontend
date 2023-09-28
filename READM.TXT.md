@@ -31,20 +31,20 @@ Para executar este projeto em sua máquina, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/seu-usuario/mvp_arquitetura_software_pucrio_frontend.git
-   ```
+   ```bash
 
 2. Navegue para o diretório do projeto:
 
 
 ```bash
 cd mvp_arquitetura_software_pucrio_frontend
-```
+```bash
 
 3. Instale as dependências:
 
 ```bash
 npm install
-```
+```bash
 
 4. Inicie a aplicação:
 
