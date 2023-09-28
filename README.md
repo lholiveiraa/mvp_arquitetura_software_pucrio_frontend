@@ -54,7 +54,7 @@ npm run dev
 A aplicação estará disponível em http://localhost:5173.
 
 ### Documentação da Interface do Usuário
-Nossa interface do usuário foi desenvolvida com React Vite e StyledComponents. Ela se comunica com a API Python Flask, que está disponível neste repositório.
+Nossa interface do usuário foi desenvolvida com React Vite e StyledComponents. Ela se comunica com a API Python Flask, que está disponível neste repositório https://github.com/lholiveiraa/mvp_arquitetura_software_pucrio_api/.
 
 A interface do usuário é composta por várias páginas e componentes que fazem chamadas para as rotas da API Flask. Abaixo, listamos as principais funcionalidades da interface:
 
