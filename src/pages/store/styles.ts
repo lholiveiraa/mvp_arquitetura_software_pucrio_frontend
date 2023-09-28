@@ -32,6 +32,12 @@ export const ProductCard = styled.div`
         margin-top: 1rem;
         font-size: 1.25rem;
     }
+
+    span {
+        display: block;
+        margin-top: 1rem;
+        font-size: 1.25rem;
+    }
 `;
 
 export const BuyButton = styled.button`

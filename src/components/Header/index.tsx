@@ -1,13 +1,18 @@
+import { Link } from "react-router-dom";
 import { HeaderContainer, HeaderContent, ShoppingCartButton } from "./styles";
 
-// import * as Dialog from '@radix-ui/react-dialog';
+import Logo from "../../assets/logo-pegga.png";
 
 export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <h2>Pegga</h2>
-        <ShoppingCartButton>Carrinho de Compras</ShoppingCartButton>
+        <Link to="/">
+          <img src={Logo} alt="Logo da Pegga" />
+        </Link>
+        <Link to="/cart">
+          <ShoppingCartButton>Carrinho de Compras</ShoppingCartButton>
+        </Link>
       </HeaderContent>
     </HeaderContainer>
   );
