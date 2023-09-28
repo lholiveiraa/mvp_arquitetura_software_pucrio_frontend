@@ -35,22 +35,21 @@ Para executar este projeto em sua máquina, siga os passos abaixo:
 
 2. Navegue para o diretório do projeto:
 
-
-```bash
-cd mvp_arquitetura_software_pucrio_frontend
-```bash
+   ```bash
+   cd mvp_arquitetura_software_pucrio_frontend
+   ```
 
 3. Instale as dependências:
 
-```bash
-npm install
-```bash
+   ```bash
+   npm install
+   ```
 
 4. Inicie a aplicação:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 A aplicação estará disponível em http://localhost:5173.
 
