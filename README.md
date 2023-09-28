@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-A aplicação estará disponível em http://localhost:3000.
+A aplicação estará disponível em http://localhost:5173.
 
 ### Documentação da Interface do Usuário
 Nossa interface do usuário foi desenvolvida com React Vite e StyledComponents. Ela se comunica com a API Python Flask, que está disponível neste repositório.
