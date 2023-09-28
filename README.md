@@ -1,6 +1,6 @@
 # MVP Arquitetura de Software - Projeto de Frontend
 
-Este é o repositório do projeto de frontend do MVP Arquitetura de Software da PUC-Rio. Neste projeto, desenvolvemos uma interface de usuário utilizando React Vite e StyledComponents que se comunica com uma API REST em Python Flask. Além disso, utilizamos a API pública Fake Store API para enriquecer nossa aplicação.
+Este é o repositório do projeto de frontend do MVP Arquitetura de Software da PUC-Rio. Neste projeto, desenvolvi uma interface de usuário utilizando React Vite e StyledComponents que se comunica com uma API REST em Python Flask. Além disso, utilizamos a API pública Fake Store API para enriquecer nossa aplicação.
 
 ## Requisitos do Projeto
 
