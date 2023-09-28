@@ -58,8 +58,7 @@ Nossa interface do usuário foi desenvolvida com React Vite e StyledComponents. 
 
 A interface do usuário é composta por várias páginas e componentes que fazem chamadas para as rotas da API Flask. Abaixo, listamos as principais funcionalidades da interface:
 
-- Página Inicial: Exibe informações gerais da aplicação.
-- Produtos: Lista produtos obtidos da Fake Store API.
+- Página Inicial: Lista produtos obtidos da Fake Store API.
 - Carrinho de Compras: Permite adicionar produtos ao carrinho e realizar compras fictícias.
 
 
