@@ -31,24 +31,24 @@ Para executar este projeto em sua máquina, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/seu-usuario/mvp_arquitetura_software_pucrio_frontend.git
-      ```
+   ```
 
-   Navegue para o diretório do projeto:
+2. Navegue para o diretório do projeto:
 
 
-```
+```bash
 cd mvp_arquitetura_software_pucrio_frontend
 ```
 
-Instale as dependências:
+3. Instale as dependências:
 
-```
+```bash
 npm install
 ```
 
-Inicie a aplicação:
+4. Inicie a aplicação:
 
-```
+```bash
 npm run dev
 ```
 
@@ -68,13 +68,12 @@ A interface do usuário é composta por várias páginas e componentes que fazem
 Docker
 Este projeto inclui um Dockerfile que permite empacotar a aplicação em um container Docker. Certifique-se de que o Docker esteja instalado em sua máquina e execute o seguinte comando para criar e executar o container:
 
-```
+```bash
 docker build -t mvp-frontend .
 ```
 
-```
+```bash
 docker run -p 80:80 mvp-frontend
 ```
 
 A aplicação estará disponível em http://localhost.
-
