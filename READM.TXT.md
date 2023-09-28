@@ -31,48 +31,49 @@ Para executar este projeto em sua máquina, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/seu-usuario/mvp_arquitetura_software_pucrio_frontend.git
-   Navegue para o diretório do projeto:
-   ```
+      ```
 
-```bash
+   Navegue para o diretório do projeto:
+
+
+```
 cd mvp_arquitetura_software_pucrio_frontend
-```bash
+```
 
 Instale as dependências:
 
-```bash
+```
 npm install
-```bash
+```
 
 Inicie a aplicação:
 
-```bash
+```
 npm run dev
-```bash
+```
 
 A aplicação estará disponível em http://localhost:3000.
 
 ## Documentação da Interface do Usuário
 
-Nossa interface do usuário foi desenvolvida com React Vite e StyledComponents. Ela se comunica com a API Python Flask, que está disponível neste repositório.
+A interface do usuário foi desenvolvida com React Vite e StyledComponents. Ela se comunica com a API Python Flask, que está disponível neste repositório.
 
 A interface do usuário é composta por várias páginas e componentes que fazem chamadas para as rotas da API Flask. Abaixo, listamos as principais funcionalidades da interface:
 
-Página Inicial: Exibe informações gerais da aplicação.
-Produtos: Lista produtos obtidos da Fake Store API.
-Carrinho de Compras: Permite adicionar produtos ao carrinho e realizar compras fictícias.
-Histórico de Compras: Exibe o histórico de compras do usuário.
-Além disso, a aplicação possui uma barra de navegação para facilitar a transição entre as páginas.
+- Página Inicial: Exibe informações gerais da aplicação.
+- Produtos: Lista produtos obtidos da Fake Store API.
+- Carrinho de Compras: Permite adicionar produtos ao carrinho e realizar compras fictícias.
+
 
 Docker
 Este projeto inclui um Dockerfile que permite empacotar a aplicação em um container Docker. Certifique-se de que o Docker esteja instalado em sua máquina e execute o seguinte comando para criar e executar o container:
 
-bash
-Copy code
-docker build -t mvp-frontend .
-docker run -p 80:80 mvp-frontend
-A aplicação estará disponível em http://localhost.
-
-Contribuições
-Ficamos felizes em receber contribuições para este projeto. Sinta-se à vontade para enviar pull requests e relatar problemas.
 ```
+docker build -t mvp-frontend .
+```
+
+```
+docker run -p 80:80 mvp-frontend
+```
+
+A aplicação estará disponível em http://localhost.
