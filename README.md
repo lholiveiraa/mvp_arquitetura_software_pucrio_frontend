@@ -56,11 +56,10 @@ A aplicação estará disponível em http://localhost:5173.
 ### Documentação da Interface do Usuário
 Nossa interface do usuário foi desenvolvida com React Vite e StyledComponents. Ela se comunica com a API Python Flask, que está disponível neste repositório https://github.com/lholiveiraa/mvp_arquitetura_software_pucrio_api/.
 
-A interface do usuário é composta por várias páginas e componentes que fazem chamadas para as rotas da API Flask. Abaixo, listamos as principais funcionalidades da interface:
+A interface do usuário é composta por 2 páginas e componentes que fazem chamadas para as rotas da API Flask. Abaixo, segue a lista das principais funcionalidades da interface:
 
 - Página Inicial: Lista produtos obtidos da Fake Store API.
 - Carrinho de Compras: Permite adicionar produtos ao carrinho e realizar compras fictícias.
-
 
 
 ### Docker
