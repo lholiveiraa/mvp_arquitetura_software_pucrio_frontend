@@ -52,7 +52,7 @@ Inicie a aplicação:
 npm run dev
 ```
 
-A aplicação estará disponível em http://localhost:3000.
+A aplicação estará disponível em http://localhost:5173.
 
 ## Documentação da Interface do Usuário
 
@@ -77,3 +77,4 @@ docker run -p 80:80 mvp-frontend
 ```
 
 A aplicação estará disponível em http://localhost.
+
